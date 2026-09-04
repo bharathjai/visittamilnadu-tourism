@@ -8,8 +8,8 @@ export default function BookingModal({ bookingDetails, onClose, onBookingSuccess
   const { user } = useAuth()
 
   const [step, setStep] = useState(1) // 1: Guest Info & Date, 2: Review & Summary, 3: Confirmed Success
-  const [fullName, setFullName] = useState(user?.full_name || 'Bharath')
-  const [email, setEmail] = useState(user?.email || 'bharath@example.com')
+  const [fullName, setFullName] = useState(user?.full_name || 'Krishna')
+  const [email, setEmail] = useState(user?.email || 'krishna@example.com')
   const [phone, setPhone] = useState('+91 98765 43210')
   const [specialRequests, setSpecialRequests] = useState('')
   const [loading, setLoading] = useState(false)

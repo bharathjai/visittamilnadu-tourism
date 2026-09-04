@@ -9,8 +9,8 @@ export function AuthProvider({ children }) {
     const stored = localStorage.getItem('visittn_current_user')
     return stored ? JSON.parse(stored) : {
       id: 'usr-demo-01',
-      email: 'bharath@visittamilnadu.org',
-      full_name: 'Bharath',
+      email: 'krishna@visittamilnadu.org',
+      full_name: 'Krishna',
       role: 'user' // 'user' or 'admin'
     }
   })
@@ -131,7 +131,7 @@ export function AuthProvider({ children }) {
     const updated = {
       ...user,
       role: newRole,
-      full_name: newRole === 'admin' ? 'Admin Coordinator' : 'Bharath'
+      full_name: newRole === 'admin' ? 'Admin Coordinator' : 'Krishna'
     }
     setUser(updated)
     localStorage.setItem('visittn_current_user', JSON.stringify(updated))
