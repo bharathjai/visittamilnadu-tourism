@@ -8,17 +8,18 @@ export default {
     extend: {
       colors: {
         brand: {
-          terracotta: '#E05A47',
-          terracottaDark: '#C84632',
-          nilgiri: '#1E3F20',
-          nilgiriLight: '#2D5A27',
-          gold: '#D4AF37',
+          // Lush Nilgiri Emerald Green Theme
+          terracotta: '#1E4D2B',       // Primary Nilgiri Emerald Green
+          terracottaDark: '#0F381D',   // Deep Forest Green
+          nilgiri: '#1E4D2B',
+          nilgiriLight: '#2E7D32',
+          gold: '#D4AF37',             // Royal Temple Gold Accent
           goldHover: '#B8952B',
-          ocean: '#0F1E2E',
-          oceanLight: '#1E354D',
-          parchment: '#FAF7F2',
+          ocean: '#0A2312',            // Deep Forest Night
+          oceanLight: '#13381E',
+          parchment: '#F0F7F1',        // Soft Mint Parchment
           cardBg: '#FFFFFF',
-          sand: '#F3EDE2',
+          sand: '#E2EFE3',
         }
       },
       fontFamily: {
@@ -26,9 +27,9 @@ export default {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        'card': '0 4px 20px -2px rgba(15, 30, 46, 0.08)',
-        'card-hover': '0 12px 30px -4px rgba(15, 30, 46, 0.15)',
-        'editorial': '0 20px 40px -15px rgba(224, 90, 71, 0.15)',
+        'card': '0 4px 20px -2px rgba(15, 40, 20, 0.08)',
+        'card-hover': '0 12px 30px -4px rgba(15, 40, 20, 0.16)',
+        'editorial': '0 20px 40px -15px rgba(30, 77, 43, 0.18)',
       }
     },
   },

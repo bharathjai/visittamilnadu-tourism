@@ -7,8 +7,8 @@ export function generateBookingPDF(booking) {
     format: 'a4'
   })
 
-  const primaryColor = [224, 90, 71] // #E05A47 Terracotta
-  const darkColor = [15, 30, 46]     // #0F1E2E Deep Ocean
+  const primaryColor = [30, 77, 43]  // #1E4D2B Nilgiri Emerald Green
+  const darkColor = [10, 35, 18]     // #0A2312 Deep Forest Night
   const goldColor = [212, 175, 55]   // #D4AF37 Royal Gold
 
   // HEADER BANNER

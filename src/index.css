@@ -5,8 +5,8 @@
 @layer base {
   body {
     font-family: 'Inter', sans-serif;
-    color: #0F1E2E;
-    background-color: #FAF7F2;
+    color: #0A2312;
+    background-color: #F0F7F1;
     overflow-x: hidden;
   }
   
@@ -15,23 +15,23 @@
   }
 }
 
-/* Custom Scrollbar */
+/* Custom Nilgiri Green Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #F3EDE2;
+  background: #E2EFE3;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #C84632;
+  background: #1E4D2B;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #E05A47;
+  background: #2E7D32;
 }
 
 /* Hide scrollbar for clean horizontal scrolling */
@@ -45,14 +45,14 @@
 
 /* Glassmorphism utility */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(226, 239, 227, 0.5);
 }
 
 .glass-dark {
-  background: rgba(15, 30, 46, 0.85);
+  background: rgba(10, 35, 18, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
