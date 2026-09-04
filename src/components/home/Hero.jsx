@@ -17,8 +17,8 @@ export default function Hero({ onSearchSubmit, onQuickFilter }) {
       {/* Background Image Carousel / Hero Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2000&q=90"
-          alt="Meenakshi Temple & Tamil Nadu Landscape"
+          src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2000&q=90"
+          alt="Nilgiri Tea Plantations & Hills"
           className="w-full h-full object-cover object-center scale-105 transform animate-pulse-slow brightness-90"
         />
         {/* Editorial Gradient Overlay */}
