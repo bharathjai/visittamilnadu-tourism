@@ -17,12 +17,15 @@ export default function Hero({ onSearchSubmit, onQuickFilter }) {
       {/* Background Image Carousel / Hero Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-tea-bg.jpg"
-          alt="Terraced Green Tea Plantations"
-          className="w-full h-full object-cover object-center scale-105 transform animate-pulse-slow brightness-90"
+          src="/hero-tea-bg-4k.png"
+          onError={(e) => {
+            e.target.src = 'https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=2560&q=95'
+          }}
+          alt="Terraced Green Tea Plantations HD"
+          className="w-full h-full object-cover object-center contrast-105 brightness-100"
         />
-        {/* Editorial Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-ocean via-brand-ocean/60 to-black/30" />
+        {/* Subtle Scrim Gradient Overlay for Maximum Image Clarity & Text Contrast */}
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-ocean/90 via-brand-ocean/35 to-black/20" />
       </div>
 
       {/* Hero Content Container */}
