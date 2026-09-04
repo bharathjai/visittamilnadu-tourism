@@ -17,7 +17,7 @@ export default function Hero({ onSearchSubmit, onQuickFilter }) {
       {/* Background Image Carousel / Hero Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-tea-bg.png"
+          src="/hero-tea-bg.jpg"
           alt="Terraced Green Tea Plantations"
           className="w-full h-full object-cover object-center scale-105 transform animate-pulse-slow brightness-90"
         />
